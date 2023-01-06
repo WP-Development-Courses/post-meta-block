@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wpdc/post-meta-block-example",
+	"version": "0.1.0",
+	"title": "WPDC - Post Meta Block Example",
+	"category": "theme",
+	"icon": "smiley",
+	"description": "An example block to display a string from post meta.",
+	"usesContext": [ "postId" ],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "wpdc-post-meta-block-example",
+	"editorScript": "file:./index.js"
+}
